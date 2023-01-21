@@ -1,8 +1,14 @@
+import Layout from '@/components/Layout'
+import ProductForm from '@/components/ProductForm'
 import React from 'react'
 
 const NewPage = () => {
   return (
-    <div>NewPage</div>
+    <>
+      <Layout>
+        <ProductForm />
+      </Layout>
+    </>
   )
 }
 
